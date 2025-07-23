@@ -69,40 +69,40 @@ if __name__ == "__main__":
     
     ## Commented out since we may need to update the diagrams for these activities
     filename = "actuseAcquire_Materials5573.html"
-    updates = {"notetitle": "Note", "note": "This activity is NOT fully described."}
+    updates = {"notetitle": "Note", "note": "This activity is fully described. Click a decomposition, activity, or input/output/control/mechanism for descriptions and examples that are relevant for acquiring materials in a circular economy.."}
     update_frontmatter(os.path.join(modeldict, filename), frontmatter_updates = updates)
-    # imagename ="dgm161_AcquireMaterials.jpeg"
-    # linktodiagram = "dgmA2COLON_Acquire_Materials1830.html"
-    # s = open_html(os.path.join(modeldict, filename))
-    # s = add_decomposition_images(s, imagename, linktodiagram)
-    # save_html(s, os.path.join(modeldict, filename))
+    imagename ="dgm161_AcquireMaterials.jpeg"
+    linktodiagram = "dgmA2COLON_Acquire_Materials1830.html"
+    s = open_html(os.path.join(modeldict, filename))
+    s = add_decomposition_images(s, imagename, linktodiagram)
+    save_html(s, os.path.join(modeldict, filename))
     
     filename = "actuseProduce_Product5604.html"
-    updates = {"notetitle": "Note", "note": "This activity is NOT fully described."}
+    updates = {"notetitle": "Note", "note": "This activity is fully described. Click a decomposition, activity, or input/output/control/mechanism for descriptions and examples that are relevant for producing (i.e., manufacturing) in a circular economy.."}
     update_frontmatter(os.path.join(modeldict, filename), frontmatter_updates = updates)
-    # imagename = "dgm190_ProduceProduct.jpeg"
-    # linktodiagram = "dgmA3COLON_Produce_Product54.html"
-    # s = open_html(os.path.join(modeldict, filename))
-    # s = add_decomposition_images(s, imagename, linktodiagram)
-    # save_html(s, os.path.join(modeldict, filename))
+    imagename = "dgm190_ProduceProduct.jpeg"
+    linktodiagram = "dgmA3COLON_Produce_Product54.html"
+    s = open_html(os.path.join(modeldict, filename))
+    s = add_decomposition_images(s, imagename, linktodiagram)
+    save_html(s, os.path.join(modeldict, filename))
     
     filename = "actuseUse_and_Consume5677.html"
-    updates = {"notetitle": "Note", "note": "This activity is NOT fully described."}
+    updates = {"notetitle": "Note", "note": "This activity is fully described. Click a decomposition, activity, or input/output/control/mechanism for descriptions and examples that are relevant for consuming in a circular economy.."}
     update_frontmatter(os.path.join(modeldict, filename), frontmatter_updates = updates)
-    # imagename = "dgm206_UseAndConsume.jpeg"
-    # linktodiagram = "dgmA4COLON_Use_and_Consume85.html"
-    # s = open_html(os.path.join(modeldict, filename))
-    # s = add_decomposition_images(s, imagename, linktodiagram)
-    # save_html(s, os.path.join(modeldict, filename))
+    imagename = "dgm206_UseAndConsume.jpeg"
+    linktodiagram = "dgmA4COLON_Use_and_Consume85.html"
+    s = open_html(os.path.join(modeldict, filename))
+    s = add_decomposition_images(s, imagename, linktodiagram)
+    save_html(s, os.path.join(modeldict, filename))
     
     filename = "actuseTreat_at_End_of_Life5738.html"
-    updates = {"notetitle": "Note", "note": "This activity is NOT fully described."}
+    updates = {"notetitle": "Note", "note": "This activity is fully described. Click a decomposition, activity, or input/output/control/mechanism for descriptions and examples that are relevant for end-of-life treatment in a circular economy.."}
     update_frontmatter(os.path.join(modeldict, filename), frontmatter_updates = updates)
-    # imagename = "dgm222_TreatAtEndOfLife.jpeg"
-    # linktodiagram = "dgmA5COLON_Treat_at_End_of_Life138.html"
-    # s = open_html(os.path.join(modeldict, filename))
-    # s = add_decomposition_images(s, imagename, linktodiagram)
-    # save_html(s, os.path.join(modeldict, filename))
+    imagename = "dgm222_TreatAtEndOfLife.jpeg"
+    linktodiagram = "dgmA5COLON_Treat_at_End_of_Life138.html"
+    s = open_html(os.path.join(modeldict, filename))
+    s = add_decomposition_images(s, imagename, linktodiagram)
+    save_html(s, os.path.join(modeldict, filename))
     
     filename = "actuseProduce_in_a_circular_economy25.html"
     imagename = "dgm23.jpeg"
@@ -111,6 +111,3 @@ if __name__ == "__main__":
     s = add_decomposition_images(s, imagename, linktodiagram)
     save_html(s, os.path.join(modeldict, filename))
     
-    # filename = "index.html"
-    # updates = {"notetitle": "Note", "note": "The Circular Product Design (CPD) Activity Model describes a single activity of the broader Production in a Circular Economy (CE) Model in depth, providing examples that are relevant for designing in a circular economy. Further research on downstream activities is ongoing and these activities may be missing detailed descriptions within the model."}
-    # update_frontmatter(os.path.join(currentdict, filename), frontmatter_updates = updates)
