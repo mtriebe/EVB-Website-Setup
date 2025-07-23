@@ -55,7 +55,7 @@ if __name__ == "__main__":
     ## END GENERAL
     
     ## MODEL SPECIFIC
-    
+'''    
     #add notes that some activities are incomplete; 
     #add in manual decomposition images on the A1 level activities (need to identify the specific files to edit and the relevant images/links to connect to)
     filename = "actuseDesign_Product5512.html"
@@ -111,3 +111,4 @@ if __name__ == "__main__":
     s = add_decomposition_images(s, imagename, linktodiagram)
     save_html(s, os.path.join(modeldict, filename))
     
+'''
