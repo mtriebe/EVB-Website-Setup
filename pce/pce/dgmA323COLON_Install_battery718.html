@@ -1,66 +1,139 @@
-<HTML>
-<STYLE type="text/css">
-p{margin-top:0; margin-bottom:0;}
-</STYLE>
-<SCRIPT TYPE = "text/JavaScript">
-function BlankOnload()
+---
+layout: default
+---
+
+<script type="text/JavaScript">
+ function BlankOnload()
 {
 if( top.Down )
   top.Down.location = "Blank.htm";
 }
-</SCRIPT>
-<BODY onload = BlankOnload()>
-<H2>Model: A323: Install battery</H2>
-<IMG SRC=images/dgm718.jpeg  alt="" usemap="#sitemap" border="0">
-<map name = "sitemap">
-   <area shape="rect" coords="346, 183, 506, 303"
-	href = "actuseJoin%5Fto%5Fframe738.html" TARGET=Down  alt="Click Activity Box for Description">
-   <area shape="rect" coords="506, 190, 517, 310"
-	href = "dgmTreat%5FEV%5FBatteries%5Fat%5FEnd%2Dof%2DLife23.html" TARGET=Right  alt="Click Shadow for Decomp Diagram ">
-   <area shape="rect" coords="353, 303, 513, 314"
-	href = "dgmTreat%5FEV%5FBatteries%5Fat%5FEnd%2Dof%2DLife23.html" TARGET=Right  alt="Click Shadow for Decomp Diagram ">
-   <area shape="rect" coords="626, 335, 786, 460"
-	href = "actuseConnect%5Fto%5Fsoftware%5Finterface742.html" TARGET=Down  alt="Click Activity Box for Description">
-   <area shape="rect" coords="786, 342, 797, 467"
-	href = "dgmTreat%5FEV%5FBatteries%5Fat%5FEnd%2Dof%2DLife23.html" TARGET=Right  alt="Click Shadow for Decomp Diagram ">
-   <area shape="rect" coords="633, 460, 793, 471"
-	href = "dgmTreat%5FEV%5FBatteries%5Fat%5FEnd%2Dof%2DLife23.html" TARGET=Right  alt="Click Shadow for Decomp Diagram ">
-   <area shape="rect" coords="906, 491, 1073, 617"
-	href = "actuseRecondition%5Fbattery%5Fduring%5Finstallation746.html" TARGET=Down  alt="Click Activity Box for Description">
-   <area shape="rect" coords="1073, 498, 1084, 624"
-	href = "dgmTreat%5FEV%5FBatteries%5Fat%5FEnd%2Dof%2DLife23.html" TARGET=Right  alt="Click Shadow for Decomp Diagram ">
-   <area shape="rect" coords="913, 617, 1080, 628"
-	href = "dgmTreat%5FEV%5FBatteries%5Fat%5FEnd%2Dof%2DLife23.html" TARGET=Right  alt="Click Shadow for Decomp Diagram ">
-   <area shape="rect" coords="1193, 649, 1362, 776"
-	href = "actuseReconfigure%5Fbattery%5Ffor%5FEV%5Fapplication750.html" TARGET=Down  alt="Click Activity Box for Description">
-   <area shape="rect" coords="1362, 656, 1373, 783"
-	href = "dgmTreat%5FEV%5FBatteries%5Fat%5FEnd%2Dof%2DLife23.html" TARGET=Right  alt="Click Shadow for Decomp Diagram ">
-   <area shape="rect" coords="1200, 776, 1369, 787"
-	href = "dgmTreat%5FEV%5FBatteries%5Fat%5FEnd%2Dof%2DLife23.html" TARGET=Right  alt="Click Shadow for Decomp Diagram ">
-   <area shape="rect" coords="1482, 807, 1642, 933"
-	href = "actuseTest%5Freconfigured%5Fbattery754.html" TARGET=Down  alt="Click Activity Box for Description">
-   <area shape="rect" coords="1642, 814, 1653, 940"
-	href = "dgmTreat%5FEV%5FBatteries%5Fat%5FEnd%2Dof%2DLife23.html" TARGET=Right  alt="Click Shadow for Decomp Diagram ">
-   <area shape="rect" coords="1489, 933, 1649, 944"
-	href = "dgmTreat%5FEV%5FBatteries%5Fat%5FEnd%2Dof%2DLife23.html" TARGET=Right  alt="Click Shadow for Decomp Diagram ">
+</script>
+<nav>
+ <ul class="diag-nav-bar">
+  <li class="diag-nav-item">
+   <a class="navlinks" href="#Activities">
+    Activities
+   </a>
+  </li>
+  <li class="diag-nav-item">
+   <a class="navlinks" href="#Concepts">
+    Concepts
+   </a>
+  </li>
+ </ul>
+</nav>
+<h2>
+ Model: A323: Install battery
+</h2>
+<div class="modelimage">
+ <img alt="" border="0" src="images/dgm718.jpeg" usemap="#sitemap"/>
+</div>
+<map name="sitemap">
+ <area alt="Click Activity Box for Description" coords="346, 183, 506, 303" href="actuseJoin%5Fto%5Fframe738.html" shape="rect" target="Down"/>
+ <area alt="Click Shadow for Decomp Diagram " coords="506, 190, 517, 310" href="dgmTreat%5FEV%5FBatteries%5Fat%5FEnd%2Dof%2DLife23.html" shape="rect" target="Right"/>
+ <area alt="Click Shadow for Decomp Diagram " coords="353, 303, 513, 314" href="dgmTreat%5FEV%5FBatteries%5Fat%5FEnd%2Dof%2DLife23.html" shape="rect" target="Right"/>
+ <area alt="Click Activity Box for Description" coords="626, 335, 786, 460" href="actuseConnect%5Fto%5Fsoftware%5Finterface742.html" shape="rect" target="Down"/>
+ <area alt="Click Shadow for Decomp Diagram " coords="786, 342, 797, 467" href="dgmTreat%5FEV%5FBatteries%5Fat%5FEnd%2Dof%2DLife23.html" shape="rect" target="Right"/>
+ <area alt="Click Shadow for Decomp Diagram " coords="633, 460, 793, 471" href="dgmTreat%5FEV%5FBatteries%5Fat%5FEnd%2Dof%2DLife23.html" shape="rect" target="Right"/>
+ <area alt="Click Activity Box for Description" coords="906, 491, 1073, 617" href="actuseRecondition%5Fbattery%5Fduring%5Finstallation746.html" shape="rect" target="Down"/>
+ <area alt="Click Shadow for Decomp Diagram " coords="1073, 498, 1084, 624" href="dgmTreat%5FEV%5FBatteries%5Fat%5FEnd%2Dof%2DLife23.html" shape="rect" target="Right"/>
+ <area alt="Click Shadow for Decomp Diagram " coords="913, 617, 1080, 628" href="dgmTreat%5FEV%5FBatteries%5Fat%5FEnd%2Dof%2DLife23.html" shape="rect" target="Right"/>
+ <area alt="Click Activity Box for Description" coords="1193, 649, 1362, 776" href="actuseReconfigure%5Fbattery%5Ffor%5FEV%5Fapplication750.html" shape="rect" target="Down"/>
+ <area alt="Click Shadow for Decomp Diagram " coords="1362, 656, 1373, 783" href="dgmTreat%5FEV%5FBatteries%5Fat%5FEnd%2Dof%2DLife23.html" shape="rect" target="Right"/>
+ <area alt="Click Shadow for Decomp Diagram " coords="1200, 776, 1369, 787" href="dgmTreat%5FEV%5FBatteries%5Fat%5FEnd%2Dof%2DLife23.html" shape="rect" target="Right"/>
+ <area alt="Click Activity Box for Description" coords="1482, 807, 1642, 933" href="actuseTest%5Freconfigured%5Fbattery754.html" shape="rect" target="Down"/>
+ <area alt="Click Shadow for Decomp Diagram " coords="1642, 814, 1653, 940" href="dgmTreat%5FEV%5FBatteries%5Fat%5FEnd%2Dof%2DLife23.html" shape="rect" target="Right"/>
+ <area alt="Click Shadow for Decomp Diagram " coords="1489, 933, 1649, 944" href="dgmTreat%5FEV%5FBatteries%5Fat%5FEnd%2Dof%2DLife23.html" shape="rect" target="Right"/>
 </map>
-<br>
-<p class="textfield" id="creator"><B>Creator</B></p>
-<p class="textfield" id="description"><B>Description </B></p><br>
-<p id="parent"><B>Parent Activity: </B><A HREF=actuseInstall%5Fbattery232.html>Install battery</A></p>
-<H2>Activities</H2>
-<p class="poolitem"><A HREF=actuseJoin%5Fto%5Fframe738.html>Join to frame</A></p>
-<p class="poolitem"><A HREF=actuseConnect%5Fto%5Fsoftware%5Finterface742.html>Connect to software interface</A></p>
-<p class="poolitem"><A HREF=actuseRecondition%5Fbattery%5Fduring%5Finstallation746.html>Recondition battery during installation</A></p>
-<p class="poolitem"><A HREF=actuseReconfigure%5Fbattery%5Ffor%5FEV%5Fapplication750.html>Reconfigure battery for EV application</A></p>
-<p class="poolitem"><A HREF=actuseTest%5Freconfigured%5Fbattery754.html>Test reconfigured battery</A></p>
-<H2>Concepts</H2>
-<p class="poolitem"><A HREF=concusereassembled%5Fbatteries719.html>reassembled batteries</A></p>
-<p class="poolitem"><A HREF=concuseproduct%5Fdesign722.html>product design</A></p>
-<p class="poolitem"><A HREF=concuseredeployed%5FEV%5Fbatteries728.html>redeployed EV batteries</A></p>
-<p class="poolitem"><A HREF=concusejoined%5Fbatteries758.html>joined batteries</A></p>
-<p class="poolitem"><A HREF=concusesoftware%5Fconnected%5Fbatteries760.html>software connected batteries</A></p>
-<p class="poolitem"><A HREF=concuseconditioned%5Fbatteries762.html>conditioned batteries</A></p>
-<p class="poolitem"><A HREF=concusereconfigured%5Fbatteries765.html>reconfigured batteries</A></p>
-</BODY>
-</HTML>
+<br/>
+<p class="description-info" id="description">
+ <b>
+  Description
+ </b>
+</p>
+<br/>
+<p class="description-info" id="parent">
+ <b>
+  Parent Activity:
+ </b>
+ <a href="actuseInstall%5Fbattery232.html">
+  Install battery
+ </a>
+</p>
+<div class="flex-container">
+ <div>
+  <h2 id="Activities">
+   Activities
+  </h2>
+  <div class="flex-items">
+   <p class="poolitem">
+    <a href="actuseJoin%5Fto%5Fframe738.html">
+     Join to frame
+    </a>
+   </p>
+   <p class="poolitem">
+    <a href="actuseConnect%5Fto%5Fsoftware%5Finterface742.html">
+     Connect to software interface
+    </a>
+   </p>
+   <p class="poolitem">
+    <a href="actuseRecondition%5Fbattery%5Fduring%5Finstallation746.html">
+     Recondition battery during installation
+    </a>
+   </p>
+   <p class="poolitem">
+    <a href="actuseReconfigure%5Fbattery%5Ffor%5FEV%5Fapplication750.html">
+     Reconfigure battery for EV application
+    </a>
+   </p>
+   <p class="poolitem">
+    <a href="actuseTest%5Freconfigured%5Fbattery754.html">
+     Test reconfigured battery
+    </a>
+   </p>
+  </div>
+ </div>
+ <div>
+  <h2 id="Concepts">
+   Concepts
+  </h2>
+  <div class="flex-items">
+   <p class="poolitem">
+    <a href="concusereassembled%5Fbatteries719.html">
+     reassembled batteries
+    </a>
+   </p>
+   <p class="poolitem">
+    <a href="concuseproduct%5Fdesign722.html">
+     product design
+    </a>
+   </p>
+   <p class="poolitem">
+    <a href="concuseredeployed%5FEV%5Fbatteries728.html">
+     redeployed EV batteries
+    </a>
+   </p>
+   <p class="poolitem">
+    <a href="concusejoined%5Fbatteries758.html">
+     joined batteries
+    </a>
+   </p>
+   <p class="poolitem">
+    <a href="concusesoftware%5Fconnected%5Fbatteries760.html">
+     software connected batteries
+    </a>
+   </p>
+   <p class="poolitem">
+    <a href="concuseconditioned%5Fbatteries762.html">
+     conditioned batteries
+    </a>
+   </p>
+   <p class="poolitem">
+    <a href="concusereconfigured%5Fbatteries765.html">
+     reconfigured batteries
+    </a>
+   </p>
+  </div>
+ </div>
+</div>
