@@ -12,7 +12,7 @@ if __name__ == "__main__":
     }
     
     currentdict = os.getcwd()
-    modelfoldername = "pce/pce" #folder in which model html files are located, relative to this python file
+    modelfoldername = "evb/evb" #folder in which model html files are located, relative to this python file
     modeldict = os.path.join(currentdict, modelfoldername)
     
     #modify model pages in specific folder name
