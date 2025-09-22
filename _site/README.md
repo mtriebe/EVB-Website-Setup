@@ -1,5 +1,5 @@
-# Production in a Circular Economy
-Web-based functional model for manufacturing in a circular economy
+# Electric Vehicle Battery Recovery
+Web-based functional model for electric vehicle battery recovery
 
 ## Website
 Visit the linked website to access and explore the model. 
@@ -12,4 +12,4 @@ To host the website locally:
 6. Navigate to the Server Address shown in your terminal.
 
 ## Model Files
-Download the 'evb/evb' folder to access the files for the Production in a Circular Economy Model in html format. View the 'pce/pce/images' folder to view images of the system diagrams.
+Download the 'evb/evb' folder to access the files for the Electric Vehicle Battery Recovery Model in html format. View the 'evb/evb/images' folder to view images of the system diagrams.
